@@ -1,62 +1,58 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: url(/img/emilia-about.jpg);
-    background-size: 75%;
-    background-position: right top;
-    background-repeat: no-repeat;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(/img/emilia-about.jpg);
+  background-size: 75%;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
-.enlaces-about{
-list-style: none;
-margin: 0;
-padding: 0;
-text-align: right;
-background-color: rgba(255,255,255,0.5);
-padding: 10px;
-margin-top: 10px;
+.enlaces-about {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin-top: 10px;
 }
 
-.enlaces-about li{
-    display: inline;
-    margin-left: 10px;
-    
+.enlaces-about li {
+  display: inline;
+  margin-left: 10px;
 }
-a{
-    text-decoration: none;
-}
-
-
-.redes-about{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    margin-top: 3px;
-    }
-
-.redes-about li{
-    display: inline;
-    }
-
-h2{
-    margin-top: 10%;
-    font-size: 60px;
+a {
+  text-decoration: none;
 }
 
-h3{
-    font-size: 25px;
-    color:aqua;
-    font-weight: lighter;
+.redes-about {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin-top: 3px;
 }
 
-.subtext{
-    margin-top: 60px;
-   
+.redes-about li {
+  display: inline;
 }
 
-h5{
-    font-size: 15px;
-    color:aqua;
-    font-weight: lighter;
+h2 {
+  margin-top: 10%;
+  font-size: 60px;
 }
 
+h3 {
+  font-size: 25px;
+  color: aqua;
+  font-weight: lighter;
+}
+
+.subtext {
+  margin-top: 60px;
+}
+
+h5 {
+  font-size: 15px;
+  color: aqua;
+  font-weight: lighter;
+}
