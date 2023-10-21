@@ -1,58 +1,30 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: url(/img/emilia-about.jpg);
+.about__body{
+  background-image: url(/img/emilia-about.jpg);
   background-size: 75%;
-  background-position: right top;
   background-repeat: no-repeat;
+  background-position: right;
 }
 
-.enlaces-about {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  margin-top: 10px;
-}
 
-.enlaces-about li {
-  display: inline;
-  margin-left: 10px;
-}
-a {
-  text-decoration: none;
-}
-
-.redes-about {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
-  margin-top: 3px;
-}
-
-.redes-about li {
-  display: inline;
-}
-
-h2 {
-  margin-top: 10%;
+.about__section h2{
   font-size: 60px;
+
 }
 
-h3 {
+.about__section h3{
   font-size: 25px;
-  color: aqua;
   font-weight: lighter;
-}
-
-.subtext {
-  margin-top: 60px;
-}
-
-h5 {
+  color:aqua;
+  margin-left: 30px;
+  }
+  
+.about__section h5{
   font-size: 15px;
-  color: aqua;
   font-weight: lighter;
+  color:aqua;
+  margin-left: 30px;
+}
+
+#about__articulo{
+  margin-top: 70px;
 }

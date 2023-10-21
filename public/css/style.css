@@ -1,1 +1,5 @@
-@import url();
+@import url(/css/general.css);
+@import url(/css/home.css);
+@import url(/css/about.css);
+@import url(/css/music.css);
+@import url(/css/contact.css);

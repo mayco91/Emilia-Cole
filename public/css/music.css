@@ -1,72 +1,29 @@
-body {
-    background: url(/img/emilia-music-top.jpg);
-    background-position: top;
+.music__header{
+    background-image: url(/img/emilia-music-top.jpg);
+    background-size:100%;
     background-repeat: no-repeat;
-    background-size: 100% 5%;
+    }
+
+.music__section h1{
+    font-size: 50px;
 }
 
-.enlaces-music {
-    list-style: none;
-    text-align: right;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    margin-top: 20px;
+.music__section h3{
+    font-size: 17px;
 }
 
-.enlaces-music li {
-    display: inline;
-    margin-left: 10px;
+.music__section h2{
+    margin-top: 70px;
 }
 
-a {
-    text-decoration: none;
-}
-
-.redes-music {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    margin-top: 12px;
-}
-
-.redes-music li {
-    display: inline;
-}
-
-h1 {
-    font-size: 60px;
+.music__list ol li{
+    text-transform: capitalize;
+    margin:10px;
+    list-style-type: decimal-leading-zero;
     font-weight: bold;
 }
 
-.list-music {
-    list-style: none;
-}
-
-.titulo-music{
-    font-size: 20px;
-}
-
-#album-music{
-margin-top: 70px;
-}
-
-#album-music ol li{
-    line-height: 35px;
-}
-
-
-
-#video1{
-    margin-top: 70px;
-}
-
-
-h5{
+.music__section h5{
     font-weight: lighter;
+    font-size: 12px;
 }
-
-#video2{
-    margin-top: 70px;
-}
-
